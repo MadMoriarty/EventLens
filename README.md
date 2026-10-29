@@ -4,6 +4,8 @@ A portable, read-only Windows Event Log investigator for IT administrators.
 Native C# / .NET 10 LTS / Avalonia desktop UI. No accounts, cloud, telemetry,
 installed services, scheduled tasks or remote agents.
 
+[Download for Windows x64](https://github.com/MadMoriarty/EventLens/releases/latest) · [User guide](docs/user-guide.md) · [Build status](https://github.com/MadMoriarty/EventLens/actions)
+
 ![Synthetic investigation preview](docs/eventlens-preview.png)
 
 ## Start here
