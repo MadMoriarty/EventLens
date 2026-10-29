@@ -1,0 +1,26 @@
+name: Windows build and tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    env:
+      DOTNET_CLI_TELEMETRY_OPTOUT: "1"
+      DOTNET_GENERATE_ASPNET_CERTIFICATE: "false"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - run: dotnet test tests/EventLens.Tests/EventLens.Tests.csproj -c Release --logger trx
+      - run: dotnet test tests/EventLens.App.Tests/EventLens.App.Tests.csproj -c Release --logger trx
+      - run: ./tools/build.ps1 -SkipTests
+        shell: pwsh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EventLens-win-x64
+          path: artifacts/EventLens-win-x64.zip

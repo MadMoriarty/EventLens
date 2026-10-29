@@ -1,0 +1,34 @@
+Microsoft reference material
+Copyright Microsoft Corporation. All rights reserved.
+
+The embedded MS-ERREF numeric codes, symbols and reference descriptions originate
+from Microsoft's Windows Error Codes Open Specifications documentation.
+https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/
+
+Microsoft's Intellectual Property Rights Notice for Open Specifications
+Documentation states:
+
+Copyrights. This documentation is covered by Microsoft copyrights. Regardless of
+any other terms that are contained in the terms of use for the Microsoft website
+that hosts this documentation, you can make copies of it in order to develop
+implementations of the technologies that are described in this documentation and
+can distribute portions of it in your implementations that use these technologies
+or in your documentation as necessary to properly document the implementation.
+You can also distribute in your implementation, with or without modification,
+any schemas, IDLs, or code samples that are included in the documentation. This
+permission also applies to any documents that are referenced in the Open
+Specifications documentation.
+
+All other provisions and reservations in that notice continue to apply. The
+full notice is available at the URL above. Microsoft names do not imply any
+endorsement of EventLens.
+
+The Kerberos error reference and Security audit event labels are attributed to:
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4771
+https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
+Microsoft Learn documentation reuse terms:
+https://learn.microsoft.com/en-us/legal/termsofuse
+
+Reference data is not relicensed under the EventLens MIT source-code license.
+The generated catalog retains source URLs, retrieval date and HTML SHA-256
+fingerprints. Paragraph whitespace has been normalized; aliases are preserved.

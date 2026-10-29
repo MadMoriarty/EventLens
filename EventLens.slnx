@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EventLens.App/EventLens.App.csproj" />
+    <Project Path="src/EventLens.Core/EventLens.Core.csproj" />
+    <Project Path="src/EventLens.Windows/EventLens.Windows.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EventLens.App.Tests/EventLens.App.Tests.csproj" />
+    <Project Path="tests/EventLens.Tests/EventLens.Tests.csproj" />
+  </Folder>
+</Solution>
